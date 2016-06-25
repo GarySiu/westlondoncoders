@@ -8,6 +8,16 @@ title: home
   <h1>Learn, discuss and practice code locally</h1>
   <h2>Midday every Saturday @ Ealing Broadway</h2>
   <p class="a-content a-content-narrow a-content-top">It's part-hackday/part-social. Meet people, chat about code, practice code, pair on code challenges or build projects.</p>
+  <div id="map"></div>
+      <script>
+        function initMap() {
+          var mapDiv = document.getElementById('map');
+          var map = new google.maps.Map(mapDiv, {
+              center: {lat: 44.540, lng: -78.546},
+              zoom: 8
+          });
+        }
+    </script>
 
   <a class="u-no-border" href="#bottom"><img class="a-arrow-down" src="{{ "/img/arrow.svg" | prepend: site.baseurl }}" /></a>
 </div>
@@ -32,4 +42,9 @@ title: home
   <h2>People of all skills and backgrounds welcome!</h2>
   <p class="a-content a-content-narrow a-content-top">Chat with us on <a href=""https://westlondoncoders.herokuapp.com/>Slack</a>, join our <a href="http://meetu.ps/c/2KPMg/wK6MK/f">Meetup</a> and get on our <a href="https://github.com/WestLondonCoders">Github</a>.</p>
 </div>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDo_PgRhNB1PWbd8JcWeMgq5y4uqDZ53rY&callback=initMap">
+    </script>
+
 <div id="bottom"></div>
