@@ -5,6 +5,9 @@ permalink: /blog/
 ---
 
   <div class="m-post-list">
+
+  <h1>Blog</h1>
+
     {% for post in site.posts %}
 
         <a class="m-post-list__title" href="{{ post.url | prepend: site.baseurl }}"><h1><i class="fa fa-star"></i>{{ post.title }}</h1></a>
