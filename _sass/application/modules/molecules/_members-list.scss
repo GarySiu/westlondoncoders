@@ -17,5 +17,10 @@
     border-radius: 50%;
     border: solid 3px $color-blue;
     margin-top: -20px;
+    transition: 1s;
+  }
+
+  img:hover {
+    border: solid 3px $color-pink
   }
 }
