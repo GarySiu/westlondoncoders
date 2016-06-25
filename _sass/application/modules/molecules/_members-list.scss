@@ -1,0 +1,26 @@
+.m-members-list {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+
+  h1 a {
+    align-self: center;
+    font-family: $nav-font;
+  }
+
+  p {
+    align-self: center;
+    margin-top: -15px;
+  }
+
+  img {
+    border-radius: 50%;
+    border: solid 3px $color-blue;
+    margin-top: -20px;
+    transition: 1s;
+  }
+
+  img:hover {
+    border: solid 3px $color-pink
+  }
+}
