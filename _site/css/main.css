@@ -195,7 +195,7 @@ body {
     @media (min-width: 760px) {
       .m-navbar h2 {
         font-size: 1em;
-        margin-right: 25px; } }
+        margin-right: 10px; } }
     @media (min-width: 1030px) {
       .m-navbar h2 {
         font-size: 1.4em;
