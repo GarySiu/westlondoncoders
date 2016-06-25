@@ -9,9 +9,23 @@ title: home
   <h2>Midday every Saturday @ Ealing Broadway</h2>
   <p class="a-content a-content-narrow a-content-top">It's part-hackday/part-social. Meet people, chat about code, practice code, pair on code challenges or build projects.</p>
 
-  <a class="u-no-border" href="#bottom"><img class="a-arrow-down" src="{{ "/img/arrow.svg" | prepend: site.baseurl }}" /></a>
-
+  <span class="u-no-border" href="#bottom"><img class="a-arrow-down" src="{{ "/img/arrow.svg" | prepend: site.baseurl }}" /></a>
 </div>
+
+  <script type="text/javascript">
+
+	  $.fn.scrollView = function () {
+	  return this.each(function () {
+	    $('html, body').animate({
+	      scrollTop: $('#bottom').offset().top
+	    }, 1000);
+	  });
+	}
+
+  	$('.a-arrow-down').click(function(){
+  		$('.a-arrow-down').scrollView()
+  	})
+  </script>
 
 <div class="m-banner m-banner--pink u-center">
   <h1>Join us!</h1>
