@@ -3,6 +3,7 @@ layout: default
 title: home
 ---
 
+
 <div class="m-banner m-banner--yellow m-banner--with-image u-center">
 
   <h1>Learn, discuss and practice code locally</h1>
@@ -10,22 +11,14 @@ title: home
   <p class="a-content a-content-narrow a-content-top">It's part-hackday/part-social. Meet people, chat about code, practice code, pair on code challenges or build projects.</p>
 
   <a class="u-no-border" href="#bottom"><img class="a-arrow-down" src="{{ "/img/arrow.svg" | prepend: site.baseurl }}" /></a>
+
+  	<script>
+	  	$('.a-arrow-down').click(function(){
+	  		$('.a-arrow-down').scrollView($('#bottom'));
+	  	})
+	</script>
+
 </div>
-
-  <script type="text/javascript">
-
-	  $.fn.scrollView = function () {
-	  return this.each(function () {
-	    $('html, body').animate({
-	      scrollTop: $('#bottom').offset().top
-	    }, 1000);
-	  });
-	}
-
-  	$('.a-arrow-down').click(function(){
-  		$('.a-arrow-down').scrollView()
-  	})
-  </script>
 
 <div class="m-banner m-banner--pink u-center">
   <h1>Join us!</h1>
