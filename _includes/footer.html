@@ -1,2 +1,17 @@
   <script src="https://use.fontawesome.com/8219d64355.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+    $.fn.scrollView = function () {
+    return this.each(function () {
+      $('html, body').animate({
+        scrollTop: $('#bottom').offset().top
+      }, 1000);
+    });
+  }
+
+    $('.a-arrow-down').click(function(){
+      $('.a-arrow-down').scrollView()
+    })
+  </script>
