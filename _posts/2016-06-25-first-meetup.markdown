@@ -4,6 +4,7 @@ title:  "First Public Meetup"
 date:   2016-06-21 19:27:00 +0100
 categories: news
 author: Steve Brewer
+comments: true
 ---
 
 It's almost 7:30pm and Costa is about to close and four of us are still here, some of us since 11am. So we had a pretty good time! We got everyone added to the Github team with write access to the website and some of us have made some commits already.

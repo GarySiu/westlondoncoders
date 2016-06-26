@@ -4,6 +4,7 @@ title:  "Hello WLC!"
 date:   2016-06-21 17:27:00 +0100
 categories: news
 author: Steve Brewer
+comments: true
 ---
 So this group grew a lot faster than I anticipated, which is great! Clearly there's a demand for meetups in West London! I'm looking for an alternative venue for this Saturday (though still at Ealing Broadway), suggestions welcome - otherwise we'll stick with Costa. Going forward, I'm aiming to host a meetup weekly but with no obligation for anyone to attend all of them.
 
